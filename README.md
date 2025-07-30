@@ -9,3 +9,7 @@ Here is the python notebook, a part of the project that I built for my dessertat
 
 Data:
 https://www.kaggle.com/datasets/imsparsh/accentdb-core-extended
+
+Note: 
+This is the **orignal source code** as submitted for the dissertation project. 
+A detailed roadmap for production readiness has been added for reference regarding the future scope around this project!
