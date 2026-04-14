@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# API keys & secrets
+OPENAI_API_KEY.json
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Poetry
+poetry.lock
+
+# macOS
+.DS_Store
+
+# Build / dist
+dist/
+build/
+*.egg-info/
