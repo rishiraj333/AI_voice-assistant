@@ -10,10 +10,8 @@ license = "MIT"
 python = ">=3.11,<3.14"  # 3.13.x is the target runtime
 
 # OpenAI — speech-to-text (Whisper) and language model (GPT-3.5-Turbo)
-openai = "^1.0"
-openai-whisper = "^20231117"
-torch = "^2.6"             # 2.6+ has Python 3.13 wheels; pulled in by openai-whisper
-setuptools = "^70.0"       # provides pkg_resources needed by openai-whisper build
+openai = "^2.0"
+openai-whisper = ">=20231117"  # install from git for Python 3.13 compat: pip install git+https://github.com/openai/whisper.git
 
 # Audio processing
 librosa = "^0.10"
@@ -32,7 +30,7 @@ matplotlib = "^3.9"        # 3.9+ has Python 3.13 wheels
 seaborn = "^0.13"
 
 # UI
-gradio = "^4.0"
+gradio = "^5.0"            # 5.x required for huggingface_hub >=1.0 compat
 
 # Utilities
 flask = "^3.0"
